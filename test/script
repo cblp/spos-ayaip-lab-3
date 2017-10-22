@@ -2,6 +2,9 @@
 set -eux -o pipefail
 
 mkdir -p build
-cd build
-cmake ..
-make
+(
+    cd build
+    cmake ..
+    make
+)
+test/suite.py
